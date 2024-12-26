@@ -76,7 +76,7 @@ void loop() {
               upMove(1);
               break;
             
-            case 'C'://pitch down
+            case '2'://pitch down
               downMove(1);
               break;
 
@@ -84,16 +84,16 @@ void loop() {
               leftMove(1);
               break;
             
-            case '#'://fast clockwise rotation
+            case '4'://fast clockwise rotation
               rightMove(1);
               break;
             
-            case '9': //firing routine 
+            case '5': //firing routine 
               fire();
               //Serial.println("FIRE");
               break;
               
-            case '7':
+            case '0':
               fireAll();
               delay(50);
               break;
